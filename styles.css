@@ -55,6 +55,12 @@ section {
   position: relative;
 }
 
+.navbar-brand img {
+    position: relative;
+    right: 10px;
+    height: 50px;
+}
+
 .nav-item {
   margin-left:16px;
 }
