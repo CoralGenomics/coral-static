@@ -236,6 +236,11 @@ form .col-lg-8 {
   color: #fff;
 }
 
+.search-area h1 {
+  color: #161C37;
+  font-size: 0.1em;
+}
+
 .search-area p {
   color: #ffffffc9;
   font-size: 1.2em;
