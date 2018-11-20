@@ -26,6 +26,14 @@ h5 {
   letter-spacing: 1px;
 }
 
+
+em {
+    background-color: #004d26;
+    text-decoration: underline;
+    font-style: normal;   
+}
+
+
 section {
   padding: 96px 0;
 }
