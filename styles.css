@@ -33,7 +33,6 @@ em {
     font-style: normal;   
 }
 
-
 section {
   padding: 96px 0;
 }
@@ -252,7 +251,7 @@ form .col-lg-8 {
 
 .search-area p {
   color: #ffffffc9;
-  font-size: 1.2em;
+  font-size: 0.8em;
 }
 
 .search {
