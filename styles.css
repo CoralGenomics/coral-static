@@ -437,19 +437,3 @@ form .col-lg-8 {
   .search-area {
     padding: 60px 0px 40px 0px;
   }
-
-  #mc_embed_signup {
-     background-color: #161C37 !important;
-  }
-
-  #mc_embed_signup {
-   border-color: #161C37;
-   border-width: 1px;
-   border-style: solid;
-}
-
-#mc_embed_signup #mc-embedded-subscribe {
-   display: block;
-   margin-right: auto;
-   margin-left: auto;
-}
