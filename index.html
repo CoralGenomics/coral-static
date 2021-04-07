@@ -11,6 +11,10 @@
     gtag('config', 'UA-121419692-1');
   </script>
   
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,23 +39,49 @@
   <title>Coral</title>
 </head>
 <body>
+
+
+
   <div class="background">
+
+
     <header class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img style="position: relative; right: 5vw; width:34vw;" src="img/logo.svg" alt=""></a>
       </nav>
+
+
+
+      <!--Navigation bar-->
+      <div id="nav-placeholder">
+
+      </div>
+
+      <script>
+      $(function(){
+        $("#nav-placeholder").load("header.html");
+      });
+      </script>
+      <!--end of Navigation bar-->
+
+
+      <div id="header"></div>
+
       <div class="left">
         <a class="nav-link" href="https://www.coralgenomics.com/team"><i class="fas fa-users"></i>&nbsp; Team</a>
         <a class="nav-link" href="https://www.coralgenomics.com/precisionmed"><i class="fas fa-database"></i>&nbsp; Data</a>
-       <!-- <a class="nav-link" href="https://www.coralgenomics.com/pipeline"><i class="fas fa-pills"></i>&nbsp; Pipeline</a> -->
-        <a class="nav-link" href="https://www.coralgenomics.com/contact"><i class="fas fa-comment"></i>&nbsp; Contact</a>
-        <a class="nav-link" href="https://www.coralgenomics.com/policies"><i class="fas fa-sticky-note"></i>&nbsp; Key Policies</a>
-        <a class="nav-link" href="https://www.coralgenomics.com/blmsolidarity"><i class="fas fa-unlink"></i>&nbsp; BLM Solidarity</a>
-
-
-
-
+        <a class="nav-link" href="https://www.coralgenomics.com/pipeline"><i class="fas fa-pills"></i>&nbsp; Pipeline</a> 
+        <a class="nav-link" href="https://www.coralgenomics.com/publications"><i class="fas fa-book-open"></i>&nbsp; Publications</a>  
       </div>
+
+      <p></p>
+      <div class="left">
+        <a class="nav-link" href="https://www.coralgenomics.com/careers"><i class="fas fa-briefcase"></i>&nbsp; Careers</a>      
+        <a class="nav-link" href="https://www.coralgenomics.com/policies"><i class="fas fa-sticky-note"></i>&nbsp; Policies</a>
+        <a class="nav-link" href="https://www.coralgenomics.com/blmsolidarity"><i class="fas fa-unlink"></i>&nbsp; BLM Solidarity</a>
+        <a class="nav-link" href="https://www.coralgenomics.com/contact"><i class="fas fa-comment"></i>&nbsp; Contact</a>
+      </div>
+
     </header>
     
     <p></p>
@@ -62,10 +92,10 @@
           <div class="col-lg-6 col-md-6 col-sm-12">
             <h2>Functional Response Scores Powered by Diversity</h2>
             <p>
-              Coral integrates molecular, functional, and clinical factors to optimize treatment for chronic disease.
+              Coral integrates molecular, functional, and clinical factors to create new clinical laboratory tests that predict optimal treatments for autoimmune diseases.
             </p>
             <p>
-              This results in more personalized and efficient healthcare delivery.
+              We have also identified a unique subpopulation of patients who do not respond to current therapies and are working towards addressing this unment medical need.
             </p>
             <p><a href="img/clia_license.png">CLIA #05D2189521</a>
 </p>
@@ -135,10 +165,10 @@
       </a>
     </div>
     <div class="col-lg-6 col-sm-12 hvr-shrink post">
-      <a href="https://www.coralgenomics.com/clinicalseq">
+      <a href="https://www.coralgenomics.com/pipeline">
         <img src="img/aquarium.jpg" class="curve" alt="">
         <div class="copy">
-          <h2>Clinical Results for Diverse Populations</h2>
+          <h2>New Therapies for Non-responders</h2>
         </div>
       </a>
     </div>
@@ -155,14 +185,7 @@
 
 
 <footer class="footer">
-  <div class="left">
-    <a class="nav-link" href="https://www.coralgenomics.com/team"><i class="fas fa-users"></i>&nbsp; Team</a>
-    <a class="nav-link" href="https://www.coralgenomics.com/precisionmed"><i class="fas fa-database"></i>&nbsp; Data</a>
- <!--   <a class="nav-link" href="https://www.coralgenomics.com/pipeline"><i class="fas fa-pills"></i>&nbsp; Pipeline</a> -->
-    <a class="nav-link" href="https://www.coralgenomics.com/contact"><i class="fas fa-comment"></i>&nbsp; Contact</a>
-    <a class="nav-link" href="https://www.coralgenomics.com/privacy"><i class="fas fa-user-shield"></i>&nbsp; Privacy</a>
 
-  </div>
   <div class="copyright">© Coral Genomics, 2021</div>
 </footer>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
