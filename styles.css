@@ -149,7 +149,7 @@
  */
 #menuToggle input:checked ~ ul
 {
-  opacity: 0.92;
+  opacity: 0.95;
   transform: none;
 }
 
