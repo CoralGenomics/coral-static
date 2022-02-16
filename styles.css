@@ -236,7 +236,7 @@ body{
 
 .page{
   box-sizing: border-box;
-  max-width: 70%;
+  max-width: 100%;
   padding-left: .75rem;
   padding-right: .75rem;
   margin: auto;
